@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     @IBAction func tapRefrashButton(_ sender: Any) {
         
         loadImageWithCombine(urlString)
-            .receive(on: RunLoop.main)
+            .receive(on: DispatchQueue.main)
             // assign 은 에러가 Never일때만 사용가능하다
             .assign(to: \.image, on: imageView)
 //            .sink(receiveCompletion: { completion in

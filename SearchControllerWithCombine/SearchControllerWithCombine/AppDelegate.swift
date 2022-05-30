@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  SearchMovieWithCombine
+//  SearchControllerWithCombine
 //
-//  Created by J_Min on 2022/05/23.
+//  Created by J_Min on 2022/05/29.
 //
 
 import UIKit
